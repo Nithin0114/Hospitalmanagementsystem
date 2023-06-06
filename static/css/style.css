@@ -1,0 +1,5 @@
+li:hover{
+    background-color: rgba(8, 92, 126, 0.721);
+    border-radius: 10px;
+    border:1px solid yellow;
+}

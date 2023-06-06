@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %} homepage {% endblock %}    
+  
+{% block content %}
+
+<h1 class="text-center">EMERGENCY CONTACTS</h1>
+<hr>
+{%for i in contactkey%}
+<div class="mx-auto w-50 bg-success text-center text-white">
+    <h1>{{i.c_name}}</h1>
+    <p>{{i.c_phone}}</p>
+    <p>{{i.c_email}}</p>
+    <p>{{i.c_department}}</p>
+
+
+
+
+</div>
+{%endfor%}
+
+
+{% endblock %}
